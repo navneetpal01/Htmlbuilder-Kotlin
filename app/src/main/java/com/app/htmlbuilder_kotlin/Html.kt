@@ -23,13 +23,3 @@ fun HtmlTag.Builder.text(text: String) {
     })
 }
 
-/**
- * fun HtmlTag.Builder.addAttribute(attribute: Pair<String, String>) {
- *     attributes = attributes.plus(attribute)
- * }
- *
- * fun HtmlTag.Builder.addChild(child: HtmlElement) {
- *     children = children.plus(child)
- *}
- * fun HtmlTag.Builder.text(text: String) = addChild { indent -> "$indent$text" }
- */
